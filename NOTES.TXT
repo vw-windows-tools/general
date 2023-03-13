@@ -1,0 +1,30 @@
+###############################################################################################
+#
+#			  		W-TOOLS
+#
+###############################################################################################
+
+--------------------------------------
+NEXT COMMIT
+--------------------------------------
+
+--------------------------------------
+TODO
+--------------------------------------
+
+--------------------------------------
+EVOLUTIONS
+--------------------------------------
+
+Exchange
+	
+	- replace "inbox" name with a variable in Exchange module tests, to adapt to different languages
+	- improve regex for function IsValidPhoneNumber (string.ps1)
+	- add negative filters to function Get-ExchangeMail (e.g : -TitleNot "[SPAM]")
+	- allow array of folders/mail objects as parameter for Move-ExchangeMail, Remove-ExchangeMail, Remove-ExchangeItem functions
+	- allow file objects and arrays of objects/strings as Attachment(s) parameter for Send-ExchangeMail/MailReply and Meetings functions
+	- add object type as attachment(s) parameters for Meetings function (as already done for Get-ExchangeMail)
+	
+--------------------------------------
+MISCELLANEOUS
+--------------------------------------
